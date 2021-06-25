@@ -1,0 +1,44 @@
+// OUTLINE
+// Everything specific to home page here
+// 1. ABOUT
+// 2. SKILLS
+// 3. WORK HISTORY
+// 4. CONTACT
+
+// 1. ABOUT
+.about {
+  display: grid;
+  
+  .leftPanel {
+    color: white;
+  }
+}
+
+// 2. SKILLS
+.skills {
+
+  &__container {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 2fr));
+  }
+
+  &__item {
+    font-weight: 800;
+    background: #eaeaea;
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    &.code {
+      color: blue;
+    }
+  }
+
+}
+
+// 3. WORK HISTORY
+
+// 4. CONTACT

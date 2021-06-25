@@ -1,0 +1,36 @@
+// variables
+$lightBlue: rgb(20, 137, 188);
+$darkBlue: rgb(7, 45, 62);
+
+// globals basics
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+    background: linear-gradient(to bottom, $darkBlue, $lightBlue);
+}
+
+section {
+  height:100%;
+  padding:0 2rem;
+}
+
+// main content wrapper
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
